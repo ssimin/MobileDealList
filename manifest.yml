@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MobileDealList
+  host: MobileDealList
+  disk_quota: 1024M
+  services:
+  - MobileDealList-cloudantNoSQLDB
